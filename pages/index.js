@@ -10,7 +10,7 @@ export default function Home() {
 
   useEffect(() => {
     gsap.to('#teks',{
-      y: -50,
+      y: -48,
       opacity: 1,
     })
   })
