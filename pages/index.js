@@ -10,7 +10,7 @@ export default function Home() {
 
   useEffect(() => {
     tl.from('#pic1', { duration: 1.5, opacity: 0, y: '+=500', ease: 'power3.out', })
-    tl.from('#pic2', { duration: 1.5, opacity: 0, y: '+=500', ease: 'power3.out', }, '>-1.2')
+    tl.from('#pic2', { duration: 1.5, opacity: 0, y: '+=500', ease: 'power3.out', }, '>-1.3')
     tl.from('#pic3', { duration: 1.5, opacity: 0, y: '+=500', ease: 'power3.out', }, '>-1.3')
     tl.from('#teks-h1', { duration: 1.3, opacity: 0, y: '+=50', ease: 'power3.out' }, '>-1.2')
     tl.from('#teks-h2', { duration: 1.3, opacity: 0, y: '+=50', ease: 'power3.out', }, '>-1.2')
